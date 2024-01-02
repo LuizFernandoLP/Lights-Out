@@ -1,2 +1,2 @@
 # Lights-Out
-This is a mobile version of the game Lights Out released by Tiger Eletronics in 1995.
+This is a mobile version of the game Lights Out that can be played in a 3x3 grid.
