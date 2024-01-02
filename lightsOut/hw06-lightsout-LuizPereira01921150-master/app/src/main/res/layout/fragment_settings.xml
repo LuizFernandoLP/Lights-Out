@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundhelp"
+        tools:src="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lightTheme"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation='horizontal'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <RadioButton
+                android:id="@+id/radioButtonRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Red"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Blue"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOrange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Orange"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/radioButtonYellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Yellow"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Pink"
+                android:textColor="#FFFFFF" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ChangeColorButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

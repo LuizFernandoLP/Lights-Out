@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lights Out</string>
+    <string name="EmptyString"></string>
+    <string name="howToPlay">How To Play</string>
+    <string name="InstructionPlayGame">To play the game you must press any of the nine lights in order to either turn it on or off. Pressing any of the lights will toggle it and the adjacent lights. The game is over when all lights are on and the goal is to win in as few moves as you can.</string>
+    <string name="howToChangeColor">How To Change Color</string>
+    <string name="instructionChangeColor">Go to settings and select one of the three options of color and then press CHANGE to change the color of the lights.</string>
+    <string name="imageHelp">imageHelp</string>
+    <string name="HelpMenu">Help</string>
+    <string name="homeMenu">Home</string>
+    <string name="aboutMenu">About</string>
+    <string name="settingToolbar">Settings</string>
+    <string name="moves">Moves:</string>
+    <string name="movesNumber">0</string>
+    <string name="NewGame">New Game</string>
+    <string name="youWinImage">youWin</string>
+    <string name="Congratulations">CONGRATULATIONS! YOUR NUMBER OF MOVES WAS:</string>
+    <string name="movesNumberWinScreen"></string>
+    <string name="ChangeColorButton">Change</string>
+    <string name="Red">Red</string>
+    <string name="Blue">Blue</string>
+    <string name="Yellow">Yellow</string>
+    <string name="Pink">Pink</string>
+    <string name="Orange">Orange</string>
+    <string name="lightTheme">Lights Themes:</string>
+    <string name="imageMe">imageMe</string>
+    <string name="myName">Author: Luiz Fernando Leite Pereira</string>
+    <string name="introduction">Hi there! I am Luiz and I am a computer science major at the University of Massachusetts Lowell. I started programming when I was 19 years old and this is the fifth game-related project that I have done in my short career. Once I graduate I intend to become a game developer since gaming has been my passion since I was a kid.</string>
+    <string name="version">Version: 1.0</string>
+    <string name="background">background</string>
+
+
+</resources>
